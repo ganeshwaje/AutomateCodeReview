@@ -16,6 +16,7 @@
 		1F15F99823E9C67000D81F2B /* AutomateCodeReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F99723E9C67000D81F2B /* AutomateCodeReviewTests.swift */; };
 		1F15F9A323E9C6ED00D81F2B /* Dangerfile in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F9A223E9C6ED00D81F2B /* Dangerfile */; };
 		1F15F9A523E9CD9000D81F2B /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F9A423E9CD9000D81F2B /* .travis.yml */; };
+		1F15F9A723E9CF0B00D81F2B /* SimpleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F9A623E9CF0B00D81F2B /* SimpleClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		1F15F99923E9C67000D81F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F15F9A223E9C6ED00D81F2B /* Dangerfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dangerfile; sourceTree = "<group>"; };
 		1F15F9A423E9CD9000D81F2B /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
+		1F15F9A623E9CF0B00D81F2B /* SimpleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				1F15F98023E9C66F00D81F2B /* AppDelegate.swift */,
 				1F15F98223E9C66F00D81F2B /* SceneDelegate.swift */,
 				1F15F98423E9C66F00D81F2B /* ViewController.swift */,
+				1F15F9A623E9CF0B00D81F2B /* SimpleClass.swift */,
 				1F15F98623E9C66F00D81F2B /* Main.storyboard */,
 				1F15F98923E9C67000D81F2B /* Assets.xcassets */,
 				1F15F98B23E9C67000D81F2B /* LaunchScreen.storyboard */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F15F9A723E9CF0B00D81F2B /* SimpleClass.swift in Sources */,
 				1F15F98523E9C66F00D81F2B /* ViewController.swift in Sources */,
 				1F15F98123E9C66F00D81F2B /* AppDelegate.swift in Sources */,
 				1F15F98323E9C66F00D81F2B /* SceneDelegate.swift in Sources */,
@@ -302,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -356,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
