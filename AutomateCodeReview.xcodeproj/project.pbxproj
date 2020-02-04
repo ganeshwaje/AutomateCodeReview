@@ -15,6 +15,7 @@
 		1F15F98D23E9C67000D81F2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F98B23E9C67000D81F2B /* LaunchScreen.storyboard */; };
 		1F15F99823E9C67000D81F2B /* AutomateCodeReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F99723E9C67000D81F2B /* AutomateCodeReviewTests.swift */; };
 		1F15F9A323E9C6ED00D81F2B /* Dangerfile in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F9A223E9C6ED00D81F2B /* Dangerfile */; };
+		1F15F9A523E9CD9000D81F2B /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F9A423E9CD9000D81F2B /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		1F15F99723E9C67000D81F2B /* AutomateCodeReviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomateCodeReviewTests.swift; sourceTree = "<group>"; };
 		1F15F99923E9C67000D81F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F15F9A223E9C6ED00D81F2B /* Dangerfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dangerfile; sourceTree = "<group>"; };
+		1F15F9A423E9CD9000D81F2B /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				1F15F9A223E9C6ED00D81F2B /* Dangerfile */,
+				1F15F9A423E9CD9000D81F2B /* .travis.yml */,
 				1F15F97F23E9C66F00D81F2B /* AutomateCodeReview */,
 				1F15F99623E9C67000D81F2B /* AutomateCodeReviewTests */,
 				1F15F97E23E9C66F00D81F2B /* Products */,
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F15F9A523E9CD9000D81F2B /* .travis.yml in Resources */,
 				1F15F98D23E9C67000D81F2B /* LaunchScreen.storyboard in Resources */,
 				1F15F98A23E9C67000D81F2B /* Assets.xcassets in Resources */,
 				1F15F98823E9C66F00D81F2B /* Main.storyboard in Resources */,
